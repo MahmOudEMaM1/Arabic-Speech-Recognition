@@ -1,22 +1,15 @@
-#🎙️ Arabic Speech Recognition
-- Overview:
+# Flask Chatbot with Google Generative AI
 
-  Technology Stack: Flask for the web framework, ffmpeg for audio extraction, and whisper for the Arabic language model.
+## Objective
+Develop a Flask-based chatbot that uses Google Generative AI (Gemini 1.5 Pro) to provide real-time, dynamic conversational responses.
 
-  Functionality: Users can upload a video file, which is then converted into audio using ffmpeg. The extracted audio is then transcribed into Arabic text using the whisper model.
+## Tools
+- **Flask**: Web framework for handling routes and HTTP requests.
+- **Google Generative AI SDK**: To generate and process chatbot responses.
+- **HTML**: For rendering the web interface.
+- **Python**: Primary programming language for backend logic.
 
-  Implementation: The Flask app allows seamless file uploads and processes the video to provide instant transcription results.
-
-- Usage: 
-
-    Ideal for applications requiring real-time Arabic speech transcription, such as automated captioning and content indexing.
-
-
-
-- Key Features:
-
-    User-Friendly Interface: Simple upload interface for video files.
-
-    Real-Time Conversion: Converts uploaded videos to Arabic text transcripts instantly.
-
-    Scalability: Supports different sizes of whisper models for varying performance needs.
+## Key Features
+- **Real-Time AI Responses**: Generates dynamic responses based on user input using Google Generative AI.
+- **Customizable AI Configurations**: Adjustable parameters like `temperature`, `top_p`, and `top_k` to control the chatbot's response style.
+- **User-Friendly Interface**: Simple and intuitive web interface for sending text input and receiving chatbot replies.
